@@ -83,7 +83,6 @@ body {
   vertical-align: middle;
   width: 100%;
 }
-
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -186,4 +185,6 @@ button:hover{
   background-color:#85c1e9;
   transition-duration: 0.3s;
 }
+
+
 
