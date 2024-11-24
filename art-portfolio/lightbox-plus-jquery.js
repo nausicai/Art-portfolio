@@ -11283,6 +11283,6 @@ return jQuery;
       $('body').removeClass('lb-disable-scrolling');
     }
   };
-
   return new Lightbox();
 }));
+
