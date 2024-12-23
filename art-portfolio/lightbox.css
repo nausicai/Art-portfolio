@@ -28,7 +28,7 @@ body.lb-disable-scrolling {
   height: auto;
   max-width: inherit;
   max-height: none;
-  border-radius: 3px;
+  border-radius: 3px; 
 
   /* Image border */
   border: 4px solid white;
@@ -36,6 +36,9 @@ body.lb-disable-scrolling {
 
 .lightbox a img {
   border: none;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
 }
 
 .lb-outerContainer {
@@ -63,16 +66,14 @@ body.lb-disable-scrolling {
   height: 100%;
   width: 100%;
   text-align: center;
-  line-height: 0;
+  line-height: 0; 
 }
-
 .lb-cancel {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -50px 0px 0px -50px;
   background: url(images/loading.gif) no-repeat;
-}
+} 
 
 .lb-nav {
   position: absolute;
@@ -99,6 +100,7 @@ body.lb-disable-scrolling {
 }
 
 .lb-nav a.lb-prev {
+  position: absolute;
   width: 34%;
   left: 0;
   float: left;
@@ -115,7 +117,8 @@ body.lb-disable-scrolling {
 }
 
 .lb-nav a.lb-next {
-  width: 64%;
+  position: absolute;
+  width: 34%;
   right: 0;
   float: right;
   background: url(images/next.png) right 48% no-repeat;
@@ -175,21 +178,20 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-close {
-  display: block;
-  float: right;
-  width: 30px;
-  height: 30px;
-  background: url(images/close.png) top right no-repeat;
-  text-align: right;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  transition: opacity 0.2s;
+  display: none;
 }
 
 .lb-data .lb-close:hover {
   cursor: pointer;
   opacity: 2;
+}
+.loading-gif {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000; 
+}
+.lb-number{
+  display: none !important;
 }
