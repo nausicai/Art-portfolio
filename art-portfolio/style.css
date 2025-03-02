@@ -3,12 +3,14 @@ header {
   letter-spacing: 3.5px;
   color: #17202a;
   padding: 0.1rem;
+  font-size: 20px;
 }
 .wrapper {
   font-family: sans-serif;
   letter-spacing: 4px;
   text-align: center;
   padding: 1rem;
+  font-size: 20px;
 }
 a {
   text-decoration: none;
@@ -117,7 +119,7 @@ body {
   font-weight:800;
   text-transform: lowercase;
   color:#85c1e9;
-  font-size: 30px;
+  font-size: 25px;
 }
 .contact-left-title hr{
   border: none;
