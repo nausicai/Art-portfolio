@@ -73,7 +73,7 @@ body {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+
 .gallery {
   flex: 25%;
   max-width: 25%;
@@ -85,17 +85,24 @@ body {
   vertical-align: middle;
   width: 100%;
 }
-/* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
+  .gallery {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .gallery {
     flex: 100%;
     max-width: 100%;
   }
@@ -186,6 +193,227 @@ button{
 button:hover{
   background-color:#85c1e9;
   transition-duration: 0.3s;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .contact-container {
+    margin-left: 100px;
+  }
+  .contact-inputs {
+    width: 400px;
+  }
+  .contact-right img {
+    width: 400px;
+    margin-right: 100px;
+  }
+  button {
+    margin-left: 100px;
+  }
+  .wrapper a {
+    padding: 3.5em;
+    font-size: 18px;
+  }
+  .box {
+    padding: 0 2px;
+  }
+  .gallery {
+    padding: 0 2px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+  }
+  .contact-inputs {
+    width: 350px;
+  }
+  .contact-right img {
+    width: 350px;
+    margin-right: 50px;
+  }
+  button {
+    margin-left: 80px;
+  }
+  .wrapper a {
+    padding: 2.5em;
+    font-size: 17px;
+  }
+  header {
+    font-size: 19px;
+  }
+  .gallery {
+    flex: 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper a {
+    padding: 2em;
+    font-size: 16px;
+  }
+  header {
+    font-size: 18px;
+  }
+  .gallery {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .contact-left {
+    align-items: center;
+  }
+  .contact-left-title {
+    text-align: center;
+  }
+  .contact-inputs {
+    box-sizing: border-box;
+  }
+  textarea.contact-inputs {
+    height: 100%;
+    width: 100%;
+    resize: vertical;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    gap: 30px;
+  }
+  .contact-inputs {
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  textarea.contact-inputs {
+    height: 100%;
+    width: 300px;
+    resize: vertical;
+  }
+  .contact-right img {
+    display: none;
+  }
+  button {
+    margin-left: 75px;
+  }
+  .wrapper a {
+    padding: 1.5em;
+    font-size: 15px;
+  }
+  header {
+    font-size: 17px;
+  }
+  .gallery {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 2px;
+  }
+  .gallery img {
+    margin-top: 4px;
+  }
+  .contact-left {
+    align-items: center;
+  }
+  .contact-left-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .contact-inputs {
+    width: 280px;
+    margin: 8px;
+    box-sizing: border-box;
+  }
+  textarea.contact-inputs {
+    width: 280px;
+    resize: vertical;
+  }
+  .contact-right img {
+    display: none;
+  }
+  button {
+    margin-left: 60px;
+    width: 60%;
+  }
+  .wrapper a {
+    padding: 1em;
+    font-size: 13px;
+  }
+  header {
+    font-size: 16px;
+  }
+  .gallery {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 1px;
+  }
+  .gallery img {
+    margin-top: 2px;
+  }
+  .box {
+    padding: 0 1px;
+  }
+  .contact-left {
+    align-items: center;
+  }
+  .contact-left-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact-inputs {
+    width: 250px;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  textarea.contact-inputs {
+    width: 250px;
+    resize: vertical;
+  }
+  .contact-right img {
+    display: none;
+  }
+  button {
+    margin-left: 40px;
+    width: 70%;
+  }
+  .wrapper a {
+    padding: 0.8em;
+    font-size: 11px;
+  }
+  header {
+    font-size: 14px;
+  }
+  .gallery {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  .gallery img {
+    margin-top: 1px;
+  }
+  .box {
+    padding: 0;
+  }
+  .contact-left {
+    align-items: center;
+  }
+  .contact-left-title {
+    text-align: center;
+  }
 }
 
 
