@@ -239,7 +239,7 @@ button:hover{
     margin-left: 80px;
   }
   .wrapper a {
-    padding: 2.5em;
+    padding: 1.5em;
     font-size: 17px;
   }
   header {
@@ -249,11 +249,14 @@ button:hover{
     flex: 33.33%;
     max-width: 33.33%;
   }
+  .banner img {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .wrapper a {
-    padding: 2em;
+    padding: 1.2em;
     font-size: 16px;
   }
   header {
@@ -304,7 +307,7 @@ button:hover{
     margin-left: 75px;
   }
   .wrapper a {
-    padding: 1.5em;
+    padding: 0.3em;
     font-size: 15px;
   }
   header {
@@ -323,6 +326,9 @@ button:hover{
   }
   .contact-left-title {
     text-align: center;
+  }
+  .banner img {
+    width: 85%;
   }
 }
 
@@ -348,7 +354,7 @@ button:hover{
     width: 60%;
   }
   .wrapper a {
-    padding: 1em;
+    padding: 0.5em;
     font-size: 13px;
   }
   header {
@@ -371,6 +377,9 @@ button:hover{
   .contact-left-title {
     text-align: center;
   }
+  .banner img {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -391,7 +400,7 @@ button:hover{
     width: 70%;
   }
   .wrapper a {
-    padding: 0.8em;
+    padding: 0.3em;
     font-size: 11px;
   }
   header {
@@ -413,6 +422,9 @@ button:hover{
   }
   .contact-left-title {
     text-align: center;
+  }
+  .banner img {
+    width: 95%;
   }
 }
 
