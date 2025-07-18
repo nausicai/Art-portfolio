@@ -352,13 +352,17 @@ button:hover{
   button {
     margin-left: 60px;
     width: 60%;
+    align-items: center;
+    justify-content: center;
   }
   .wrapper a {
     padding: 0.5em;
-    font-size: 13px;
+    font-size: 14px;
   }
   header {
     font-size: 16px;
+    align-items: center;
+    justify-content: center;
   }
   .gallery {
     flex: 100%;
@@ -402,10 +406,12 @@ button:hover{
   }
   .wrapper a {
     padding: 1rem;
-    font-size: 11px;
+    font-size: 14px;
   }
   header {
-    font-size: 14px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
   }
   .gallery {
     flex: 100%;
